@@ -4,12 +4,15 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "graphql": "^16.13.2"
+    "express": "^5.2.1",
+    "graphql": "^16.13.2",
+    "graphql-http": "^1.22.4",
+    "ruru": "^2.0.0"
   }
 }
